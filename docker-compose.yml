@@ -1,0 +1,18 @@
+version: '3.9'
+x-doc-volumes: &x-doc-volumes
+  volumes:
+    - './docs:/docs:delegated'
+services:
+  docs:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: prod
+    <<: *x-doc-volumes
+    working_dir: /
+    ports:
+      - '8000:8000'
+    environment:
+      HOST: 0.0.0.0
+    command: mkdocs serve --dirtyreload --dev-addr=0.0.0.0:8000

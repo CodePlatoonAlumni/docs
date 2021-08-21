@@ -1,0 +1,26 @@
+site_name: Code Platoon Documentation
+site_description: Documentation for code platoon apps
+site_author: Gary Coffey
+docs_dir: docs
+site_dir: site
+repo_name: CodePlatoonAlumni/docs
+repo_url: https://github.com/CodePlatoonAlumni/docs
+nav:
+  - Home: 'index.md'
+  - Documentation:
+    - Intro: 'documentation/index.md'
+    - Trees: 'tech/tree.md'
+    - Example: https://github.com/CodePlatoonAlumni/alumni-fe
+    - Markdown Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+  - Technical Diagrams:
+    - Intro: 'tech/index.md'
+    - Lucid Chart:
+      - Example: 'tech/lucid/diagrams.md'
+      - Lucid Chart Recommendations: https://www.lucidchart.com/blog/visualize-code-documentation
+  - Tips for app Demo: 'demo_tips.md'
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
