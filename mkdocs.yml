@@ -8,9 +8,10 @@ repo_url: https://github.com/CodePlatoonAlumni/docs
 nav:
   - Home: 'index.md'
   - Alumni App:
-    - Intro: 'documentation/alumni_app/index.md'
-    - Example: https://github.com/CodePlatoonAlumni/alumni-fe
-    - Markdown Cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+    - Intro: 'alumni_app/index.md'
+    - Front End Setup: 'alumni.react.md'
+    - Design Docs: 'alumni_app/design_docs.md'
+  - Amplify: 'amplify/index.md'
 theme:
   name: material
 
