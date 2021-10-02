@@ -16,6 +16,9 @@ Something to note is the app will not compile if there are lint errors.
 ## Useful VSCode extensions
 
 - prettier code formatter
- ![esLint]('/img/esLint.png')
+ 
+ ![esLint](../img/prettier.png)
  
 - ESLint
+
+ ![esLint](../img/esLint.png)
