@@ -11,7 +11,8 @@ nav:
     - Intro: 'alumni_app/index.md'
     - Front End Setup: 'alumni_app/react.md'
     - Design Docs: 'alumni_app/design_docs.md'
-  - Amplify: 'amplify/index.md'
+  - Amplify:
+    - Intro: 'amplify/index.md'
     - GraphQL: 'amplify/graphql.md'
 theme:
   name: material
