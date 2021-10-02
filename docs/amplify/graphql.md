@@ -3,8 +3,9 @@ Amplify CLI generates resolvers for queries, mutations, and subscriptions as wel
 
 Helpful links:
 
-- [Apmlify GraphQL CLI Docs](https://docs.amplify.aws/cli/graphql-transformer/overview/)
-- [Amplify GraphQL Library Docs](https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/)
+  - [Apmlify GraphQL CLI Docs](https://docs.amplify.aws/cli/graphql-transformer/overview/)
+
+  - [Amplify GraphQL Library Docs](https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/)
 
 ## Model
 Models are defined in `schema.graphql`.
