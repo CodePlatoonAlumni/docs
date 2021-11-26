@@ -52,7 +52,8 @@ You can find the project source code [here](https://github.com/CodePlatoonAlumni
 
 The Alumni app has 3 environments: dev/staging/main. All feature PRs should be opened against dev. When dev is stable, a pr should be opened from dev to staging. Finally, once staging is ready a PR should be opened from staging to main.
 
-If there is a conflict from dev to staging, follow the steps below.  
+If there is a conflict from dev to staging, follow the steps below. 
+
 1. Create a branch off of dev. e.g. `git checkout -b staging-conflict-fix`
 2. Run `git merge staging`
 3. Resolve conflicts
