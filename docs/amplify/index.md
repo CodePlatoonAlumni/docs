@@ -1,6 +1,8 @@
 # Working with Amplify
 
-Create the below two files to store your credentials and config
+## Set up AWS Profile
+
+Create the below two files to store your credentials and config.
 
 ---
 
@@ -20,15 +22,22 @@ region=us-east-2
 output=json
 ```
 
-You can learn more about AWS profile [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
+You can learn more about AWS profile [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html).
 
-## Set up amplify CLI
+## Set up Amplify environment
 
 Run `npm install -g @aws-amplify/cli` to install amplify CLI
 
-Go to the amplify console, find the env and run the specified command
+From the project directory, run `amplify init`
+```
+Do you want to use an existing environment? Yes
+Choose the environment you would like to use:
+Select develop
+```
 
-### Amplify CLI Commands
+[Learn more](https://docs.amplify.aws/cli/teams/shared/)
+
+## Amplify CLI Commands
 
 Some amplify commands operate like git commands. Below commands are useful whether you work on backend or not.
 
@@ -40,7 +49,7 @@ Some amplify commands operate like git commands. Below commands are useful wheth
 
 `amplify push` pretty much the opposite of the above.
 
-View more [here](https://docs.amplify.aws/cli/start/workflows#common-cli-commands)
+[View more](https://docs.amplify.aws/cli/start/workflows#common-cli-commands)
 
 ---
 
@@ -48,6 +57,18 @@ View more [here](https://docs.amplify.aws/cli/start/workflows#common-cli-command
 
 `amplify env checkout <env_name>` see above. Will checkout to a new backend_env
 
-View more [here](https://docs.amplify.aws/cli/teams/overview/)
+[View more](https://docs.amplify.aws/cli/teams/overview/)
 
 ---
+
+## Amplify Docs
+### [Client Libraries](https://docs.amplify.aws/lib/q/platform/js/) (Used in frontend)
+
+### CLI
+[GraphQL API](https://docs.amplify.aws/cli/graphql/overview/)
+
+[S3 Storage](https://docs.amplify.aws/cli/storage/overview/)
+
+[Lambda Function](https://docs.amplify.aws/cli/function/)
+
+[Authentication](https://docs.amplify.aws/cli/auth/overview/)
