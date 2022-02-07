@@ -2,7 +2,7 @@
 
 ## Local Dev
 
-If you are wanting to add to the docs and want to run a server locally, this is setup with docker to make that easy. Just run the following: `make docs_build` and then `make docs_run`. If you want to know what those commands do, just look for those keys in the Makefile.
+If you are wanting to add to the docs and want to run a server locally, this is setup with docker to make that easy. If you don't have Docker Desktop installed, install it from [here](https://www.docker.com/get-started). Once you have docker, run the following: `make docs_build` and then `make docs_run`. If you want to know what those commands do, just look for those keys in the Makefile.
 
 ## Releasing
 

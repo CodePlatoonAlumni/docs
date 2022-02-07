@@ -1,4 +1,4 @@
-# GraphQL Transform
+# GraphQL API
 Amplify CLI generates resolvers for queries, mutations, and subscriptions as well as DynamoDB tables for models defined in `schema.graphql`.
 
 Helpful links:

@@ -9,7 +9,8 @@ nav:
   - Home: 'index.md'
   - Alumni App:
     - Intro: 'alumni_app/index.md'
-    - Front End Setup: 'alumni_app/react.md'
+    - Local Setup: 'alumni_app/setup.md'
+    - Release Process: 'alumni_app/release.md'
     - Design Docs: 'alumni_app/design_docs.md'
   - Amplify:
     - Intro: 'amplify/index.md'
